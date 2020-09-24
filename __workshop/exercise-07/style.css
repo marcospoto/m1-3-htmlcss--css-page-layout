@@ -1,7 +1,37 @@
 body {
   margin: 0;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+}
 
+h1 {
+  margin-left: 30px;
+}
 .mobile-nav-button img {
   width: 18px;
+}
+nav {
+  margin: 30px;
+}
+
+ul {
+  display: none;
+}
+@media only screen and (min-width: 800px) {
+  body {
+  }
+  .mobile-nav {
+    display: none;
+  }
+  ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+  }
+  li {
+    margin-right: 40px;
+    margin-top: -15px;
+  }
 }

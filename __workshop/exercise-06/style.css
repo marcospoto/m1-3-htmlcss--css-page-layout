@@ -4,10 +4,46 @@ body {
 
 .nav {
   background-color: #383737;
+  color: #fff;
 }
 
 .nav-dropdown {
   color: #fff;
   text-decoration: none;
   display: inline-block;
+  list-style-type: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: blue;
+  min-width: 60px;
+  padding: 10px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  cursor: pointer;
+}
+.dropdown-content--item:hover {
+  transition: 0.2s;
+  transition-timing-function: ease;
+  opacity: 0.5;
+}
+.dropdown-content--item {
+  padding: 10px;
+}
+.dropdown {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+p {
+  margin-right: 25px;
 }

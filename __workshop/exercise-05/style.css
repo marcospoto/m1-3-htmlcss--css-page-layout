@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+}
+.pic {
+  display: flex;
+}
+img {
+  width: 33vw;
+  margin: 0.2vw;
+}

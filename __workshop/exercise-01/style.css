@@ -1,0 +1,30 @@
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+}
+.header {
+    padding: 3px;
+    text-align: center;
+    background: rgb(70, 69, 69);
+    color: white;
+    font-size: 15px;
+    width: 100%;
+  }
+.footer {
+    padding: 3px;
+    text-align: center;
+    background: rgb(70, 69, 69);
+    color: white;
+    font-size: 15px;
+    width: 100%;
+}

@@ -4,35 +4,90 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: blue;
 }
 
 .registration-form {
+  max-width: 800px;
+  margin: auto;
+  border: solid lightgray;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 20px;
 }
 
 .text-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 400px;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: solid blue;
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 3px;
 }
 
 .radio-label,
 .checkbox-label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 5px;
 }
 
 label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .section {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border-top: solid lightgray;
+  border-width: 1px;
+  padding-top: 5px;
+  padding-bottom: 20px;
 }
 
 .section > label {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
 }
 
 select {
+  margin-left: 15px;
 }
 
 textarea {
+  margin-top: 15px;
+  border: none;
+  padding-top: 30px;
+  background-color: lightgray;
 }
 
 .form-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-color: blue;
+  padding: 15px 30px 15px 30px;
+  width: 15%;
+  margin-top: 20px;
 }
 
 .form-button:hover {
+  color: white;
+  background-color: blue;
 }
